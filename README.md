@@ -5,7 +5,7 @@
 > p.s. some basic commands in vimtutor are ignored.
 
 
-## IDEA/Pycharm Keymaps
+## IntelliJ IDEA/PyCharm Keymap
 
 ### Navigation
 
