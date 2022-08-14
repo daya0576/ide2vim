@@ -101,3 +101,6 @@ buffers as the file proxies and tab pages as the workspaces
 try `:map <c-k>`
 3. file highlight not working?   
 try `set filetype=php`
+
+## Reference
+1. personal vimrc file: https://github.com/daya0576/dotfile/blob/master/.vimrc 
