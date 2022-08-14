@@ -1,12 +1,13 @@
 # Henry's IDE to VIM Cheatsheet
 
-> Personal cheatsheet when moving from IDE to VIM. Alternatives are welcome.
+> Personal cheatsheet when moving from IDE to VIM.
 > 
 > p.s. some basic commands in vimtutor are ignored.
 
-## IDEA/Pycharm Keymap
 
-### Navigation 
+## IDEA/Pycharm Keymaps
+
+### Navigation
 
 ```
         IDE                               VIM                              plugin        
@@ -31,7 +32,7 @@
   Cursor                            H/M/L
                                     zz/zt/zb
                                     $/0
-                                    ^/g_  " first/last character                           
+                                    ^/g_  " first/last character                          
                                     {/}   " next/pre block
 
   Search                            f/F                       
@@ -40,6 +41,7 @@
 ```
 
 ### Code
+
 ```
         IDE                               VIM                              plugin        
  --------------------------------- --------------------------------- ------------------- 
@@ -61,10 +63,12 @@
   
   Move Element Left/Right           ??                    
 
-  Multi Cursor                      NA                                vim-visual-multi
+  
+  Cursor                            NA                                vim-visual-multi
 ```
 
 ### Window
+
 ```
         IDE                               VIM                              plugin        
  --------------------------------- --------------------------------- ------------------- 
@@ -79,6 +83,7 @@
 ```
 
 ### Version Control Systems
+
 ```
         IDE                               VIM                              plugin        
  --------------------------------- --------------------------------- ------------------- 
@@ -87,10 +92,6 @@
                                     <Plug>(GitGutterUndoHunk)
 ```
 
-### Others
-
-Multi Cursor
-Postfix Completion
 
 ## Questions
 
@@ -100,7 +101,3 @@ buffers as the file proxies and tab pages as the workspaces
 try `:map <c-k>`
 3. file highlight not working?   
 try `set filetype=php`
-
-
-
-
