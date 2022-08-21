@@ -25,9 +25,9 @@
   Go to Implementations             <Plug>(coc-implementation)                           
   Next/Pre Highlighted Error        <Plug>(coc-diagnostic-prev)  
   
-  Scrolling                         ctrl-y/ctrl-e
-                                    ctrl-u/ctrl-d
-                                    ctrl-b/ctrl-f
+  Scrolling                         <c-y>/<c-e>
+                                    <c-u>/<c-d>
+                                    <c-b>/<c-f>
 
   Cursor                            H/M/L
                                     zz/zt/zb
@@ -77,9 +77,9 @@
 
   Windows                           :split
                                     :vsplit 
-                                    ctrl+w_   " maximize vertically
-                                    ctrl+w|   "
-                                    ctrl+w=   " 
+                                    <c-w>_   " maximize vertically
+                                    <c-w>|   "
+                                    <c-w>=   " 
 ```
 
 ### Version Control Systems
