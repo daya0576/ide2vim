@@ -117,7 +117,7 @@ function! s:Initialize(...)
   " File Path
   let filepath = folder . filename
   call system('mkdir -p ' . folder)
-  call system('touch ' . path)
+  call system('touch ' . filepath)
 
   " Open File
   execute 'edit ' . filepath
