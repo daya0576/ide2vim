@@ -9,8 +9,8 @@
 ### Navigation
 
 ```
-               IDE                                 VIM                            plugin          
- ------------------------------- ---------------------------------------- ----------------------- 
+               IDE                                 VIM                            plugin        
+ ------------------------------- ---------------------------------------- -----------------------
   Back/Forward                    <c-o>/<c-i>   " jump older/newer                     
                                                                                          
   Go to Class/Symbol              :Tags                                    junegunn/fzf.vim   
@@ -42,7 +42,7 @@
 ### Code
 
 ```
-               IDE                                 VIM                            plugin          
+               IDE                                 VIM                            plugin        
  ------------------------------- ---------------------------------------- ----------------------- 
   Override Methods...               
   Implement Methods...
@@ -69,7 +69,7 @@
 ### Window
 
 ```
-               IDE                                 VIM                            plugin          
+               IDE                                 VIM                            plugin        
  ------------------------------- ---------------------------------------- ----------------------- 
   Editor Tabs                     :tabnew filename
                                   (p.s. try buffers)
@@ -84,7 +84,7 @@
 ### Version Control Systems
 
 ```
-               IDE                                 VIM                            plugin          
+               IDE                                 VIM                            plugin        
  ------------------------------- ---------------------------------------- ----------------------- 
   Diff & Merge                    <Plug>(GitGutterPreviewHunk)             vim-gitgutter
                                   <Plug>(GitGutterStageHunk)
