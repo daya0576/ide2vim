@@ -4,9 +4,6 @@
 > 
 > p.s. some basic commands in vimtutor are ignored.
 
-![image](https://user-images.githubusercontent.com/6239652/188368691-f1984f99-4000-4d94-81bf-c31e06c05cc9.png)
-
-
 ## IntelliJ IDEA/PyCharm Keymap
 
 ### Navigation
