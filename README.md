@@ -131,6 +131,7 @@ command! -nargs=? Scratch :call s:Initialize(<f-args>)
   <summary>View code</summary>
   
 ```vim
+" run python code
 augroup python_lang
     autocmd!
     autocmd FileType python nnoremap <leader>rp :w!<CR>:call VimuxRunCommand("clear; python3 " . bufname("%"))<CR>
