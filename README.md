@@ -9,86 +9,86 @@
 ### Navigation
 
 ```
-        IDE                               VIM                                 plugin        
- --------------------------------- ------------------------------------ ------------------- 
-  Back/Forward                      <c-o> / <c-i>                                        
+               IDE                                 VIM                            plugin          
+ ------------------------------- ---------------------------------------- ----------------------- 
+  Back/Forward                    <c-o>/<c-i>   " jump older/newer                     
                                                                                          
-  Go to Class/Symbol                :Tags                                junegunn/fzf.vim   
-  Go to File                        :Files                                               
-  Recent Files                      :History                                             
+  Go to Class/Symbol              :Tags                                    junegunn/fzf.vim   
+  Go to File                      :Files                                               
+  Recent Files                    :History                                             
                                                                                          
-  File Structure                    :TagbarToggle                        majutsushi/tagbar  
+  File Structure                  :TagbarToggle                            majutsushi/tagbar  
                                                                                          
-  Go to Declaration / Usuage        <Plug>(coc-definition)               neoclide/coc.nvim  
-  Go to Type Decalaration           <Plug>(coc-type-definition)                          
-  Go to Implementations             <Plug>(coc-implementation)                           
-  Next/Pre Highlighted Error        <Plug>(coc-diagnostic-prev)  
+  Go to Declaration/Usage         <Plug>(coc-definition)                   neoclide/coc.nvim  
+  Go to Type Decalaration         <Plug>(coc-type-definition)                          
+  Go to Implementations           <Plug>(coc-implementation)                           
+  Next/Pre Highlighted Error      <Plug>(coc-diagnostic-prev)  
   
-  Scrolling                         <c-y>/<c-e>
-                                    <c-u>/<c-d>
-                                    <c-b>/<c-f>
+  Scrolling                       <c-y>/<c-e>  " scroll lines
+                                  <c-u>/<c-d>  " scroll half a screen
+                                  <c-b>/<c-f>  " scroll a full screen
 
-  Cursor                            H/M/L
-                                    zz/zt/zb
-                                    $/0
-                                    ^/g_       " first/last char                          
-                                    {/}        " pre/next block
+  Cursor                          H/M/L
+                                  zz/zt/zb
+                                  $/0
+                                  ^/g_         " first/last char                          
+                                  {/}          " pre/next block
 
-  Search                            f/F<char>  " ;/, repeat/revert
-                                    %          " go parenthesis    
-                                    #/*        " pre/next same word
+  Search                          f/F<char>    " ;/, repeat/reverse
+                                  %            " go parenthesis    
+                                  #/*          " pre/next same word
 ```
 
 ### Code
 
 ```
-        IDE                               VIM                                 plugin        
- --------------------------------- ------------------------------------ ------------------- 
+               IDE                                 VIM                            plugin          
+ ------------------------------- ---------------------------------------- ----------------------- 
   Override Methods...               
   Implement Methods...
   
-  Code Completion                   NA                                   neoclide/coc.nvim
-  Live Template                     NA                                   coc-snippets
-  Surround With...                  S                                    tpope/vim-surround
+  Code Completion                 NA                                       neoclide/coc.nvim
+  Live Template                   NA                                       coc-snippets
+  Surround With...                S                                        tpope/vim-surround
 
-  Folding                           zM: close all folders
-                                    zR: open all folders
-                                    za: toggle one folder 
-                                    zj/zk: jump folder
+  Folding                         zM                " close all folds
+                                  zR                " open all folds
+                                  za                " toggle one folds 
+                                  zj/zk             " jump fold
 
-  Comment                           <leader>cc        " comment          nerdcommenter
-                                    <leader>ci        " uncomment
-                                    <leader>c<space>  " toggle
+  Comment                         <leader>cc        " comment              nerdcommenter
+                                  <leader>ci        " uncomment
+                                  <leader>c<space>  " toggle
   
-  Move Element Left/Right           ??                    
+  Move Element Left/Right         ??                    
 
   
-  Cursor                            NA                                   vim-visual-multi
+  Cursor                          NA                                       vim-visual-multi
 ```
 
 ### Window
 
 ```
-        IDE                               VIM                                 plugin        
- --------------------------------- ------------------------------------ ------------------- 
-  Editor Tabs                       :tabnew filename
-                                    (p.s. try buffers)
+               IDE                                 VIM                            plugin          
+ ------------------------------- ---------------------------------------- ----------------------- 
+  Editor Tabs                     :tabnew filename
+                                  (p.s. try buffers)
 
-  Windows                           :split
-                                    :vsplit 
-                                    <c-w>_   " maximize vertically
-                                    <c-w>|   "
-                                    <c-w>=   " 
+  Windows                         :split
+                                  :vsplit 
+                                  <c-w>_   " maximize vertically
+                                  <c-w>|   " 
+                                  <c-w>=   " 
 ```
 
 ### Version Control Systems
 
 ```
-        IDE                               VIM                                 plugin        
- --------------------------------- ------------------------------------ ------------------- 
-  Diff & Merge                      <Plug>(GitGutterPreviewHunk)         vim-gitgutter
-                                    <Plug>(GitGutterStageHunk)
-                                    <Plug>(GitGutterUndoHunk)
+               IDE                                 VIM                            plugin          
+ ------------------------------- ---------------------------------------- ----------------------- 
+  Diff & Merge                    <Plug>(GitGutterPreviewHunk)             vim-gitgutter
+                                  <Plug>(GitGutterStageHunk)
+                                  <Plug>(GitGutterUndoHunk)
 ```
 
 ## Others
