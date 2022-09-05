@@ -1,6 +1,6 @@
 # Henry's IDE to VIM Cheatsheet
 
-> Personal cheatsheet when moving from IDE(Idea, Pycharm, etc.) to VIM.
+> Personal cheatsheet when moving from IDE(IntelliJ IDEA, Pycharm, etc.) to VIM.
 > 
 > p.s. some basic commands in vimtutor are ignored.
 
