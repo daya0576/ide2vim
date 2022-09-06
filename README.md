@@ -11,7 +11,7 @@
 ```
                IDE                                 VIM                           plugin        
  ------------------------------- ---------------------------------------- ---------------------
-  Back/Forward                    <c-o>/<c-i>   " jump older/newer                     
+  Back/Forward                    <c-o>/<c-i>   " Jump older/newer                     
                                                                                          
   Go to Class/Symbol              :Tags                                    junegunn/fzf.vim   
   Go to File                      :Files                                               
@@ -24,19 +24,19 @@
   Go to Implementations           <Plug>(coc-implementation)                           
   Next/Pre Highlighted Error      <Plug>(coc-diagnostic-prev)  
   
-  Scrolling                       <c-y>/<c-e>  " scroll lines
-                                  <c-u>/<c-d>  " scroll half a screen
-                                  <c-b>/<c-f>  " scroll a full screen
+  Scrolling                       <c-y>/<c-e>  " Scroll lines
+                                  <c-u>/<c-d>  " Scroll half a screen
+                                  <c-b>/<c-f>  " Scroll a full screen
 
   Cursor                          H/M/L
                                   zz/zt/zb
                                   $/0
-                                  ^/g_         " first/last char                          
-                                  {/}          " pre/next block
+                                  ^/g_         " Go first/last char                          
+                                  {/}          " Go pre/next block
 
-  Search                          f/F<char>    " ;/, repeat/reverse
-                                  %            " go parenthesis    
-                                  #/*          " pre/next same word
+  Search                          f/F<char>    " Try ;/, repeat/reverse
+                                  %            " Go parenthesis    
+                                  #/*          " Go pre/next same word
 ```
 
 ### Code
@@ -51,14 +51,14 @@
   Live Template                   NA                                       coc-snippets
   Surround With...                S                                        tpope/vim-surround
 
-  Folding                         zM                " close all folds
-                                  zR                " open all folds
-                                  za                " toggle one folds 
-                                  zj/zk             " jump fold
+  Folding                         zM               " Close all folds
+                                  zR               " Open all folds
+                                  za               " Toggle one folds 
+                                  zj/zk            " Jump next/pre fold
 
-  Comment                         <leader>cc        " comment              nerdcommenter
-                                  <leader>ci        " uncomment
-                                  <leader>c<space>  " toggle
+  Comment                         <leader>cc       " Comment               nerdcommenter
+                                  <leader>ci       " Uncomment
+                                  <leader>c<space> " Toggle comment
   
   Move Element Left/Right         ??                    
 
@@ -75,13 +75,14 @@
                                   (p.s. try buffers)
 
   Windows                         :split
-                                  :vsplit 
-                                  <c-w>_   " maximize vertically
-                                  <c-w>|   " 
-                                  <c-w>=   " 
+                                  :vsplit
+                                  <c-w>_     " Maximize height
+                                  <c-w>|     " Maximize width
+                                  <c-w>=     " Make all equal size
+                                  <c-w>r     " Rotate windows
 ```
 
-### Version Control Systems
+### [WIP] Version Control Systems
 
 ```
                IDE                                 VIM                           plugin        
@@ -89,6 +90,7 @@
   Diff & Merge                    <Plug>(GitGutterPreviewHunk)             vim-gitgutter
                                   <Plug>(GitGutterStageHunk)
                                   <Plug>(GitGutterUndoHunk)
+                                  
 ```
 
 ## Others
