@@ -60,10 +60,11 @@
                                   <leader>ci       " Uncomment
                                   <leader>c<space> " Toggle comment
   
-  Move Element Left/Right         ??                    
-
+  Move Element Left/Right         g<               " Move element left     machakann/vim-swap
+                                  g>               " Move element right
+                                  gs               " Interactive mode
   
-  Cursor                          NA                                       vim-visual-multi
+  Multiple Cursors                NA                                       vim-visual-multi
 ```
 
 ### Window
