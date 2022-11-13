@@ -81,6 +81,7 @@
                                   <c-w>|     " Maximize width
                                   <c-w>=     " Make all equal size
                                   <c-w>r     " Rotate windows
+                                  <c-w>H     " Move one to the right
 ```
 
 ### [WIP] Version Control Systems
