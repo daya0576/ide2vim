@@ -150,7 +150,7 @@ Buffers as the file proxies and tab pages as the workspaces
 2. How to debug keymaps   
 Try `:verbose imap <CR>`
 3. File highlight not working?   
-Try `set filetype=php`
+Try `:set filetype=php`
 
 ## Reference
 1. Personal vimrc file: https://github.com/daya0576/dotfile/blob/master/.vimrc 
