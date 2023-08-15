@@ -148,7 +148,7 @@ augroup end
 1. Tabs or Buffer？   
 Buffers as the file proxies and tab pages as the workspaces
 2. How to debug keymaps   
-Try `:map <c-k>`
+Try `:verbose imap <CR>`
 3. File highlight not working?   
 Try `set filetype=php`
 
